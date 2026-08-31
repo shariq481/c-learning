@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-char one=65,two=66;
+char one='A',two='B';
 
 
 printf("the value of one is %c\n",one );
