@@ -2,7 +2,7 @@
 int main ()
 {
 int n,sum=0;
-printf("enter your age ");
+printf("enter your number ");
 scanf("%d",&n);
 for(int j=n,i=0;i<=n&&j>=1;i++,j--)
 {
