@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-char one='A',two='B';
+char one,two;
+scanf("%c %c",&one,&two);
 
 
 printf("the value of one is %c\n",one );
