@@ -1,3 +1,6 @@
+
+
+
 #include<stdio.h>
 int main ()
 {
@@ -7,7 +10,7 @@ int main ()
     if (consumed<0){
         printf("you have entered an invalid number");
     }
-     else if (consumed<=100)
+     else if (consumed<=100&&consumed>=0)
     {
         printf("the bill is %d", consumed*2);
     }
@@ -23,5 +26,4 @@ int main ()
     {
         printf("the bill is %d",consumed*7);
     }
-
 }
