@@ -16,7 +16,7 @@ int main ()
         while (n!=0)
         {   
             r=n%10;
-            for (int j=1;j<p;j++)
+            for (int j=1;j<=p;j++)
             {
                     r=r*r;
                     sum=sum+r;
